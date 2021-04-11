@@ -34,6 +34,8 @@ SOChedule is a one-stop solution for NUS School of Computing (SoC) students to m
 Targeted at users who can type fast and prefer typing to mouse input, SOChedule is optimized for use via a Command Line Interface (CLI) 
 while still having the benefits of a Graphical User Interface (GUI).
 
+<div style="page-break-after: always;"></div>
+
 ## Feature List
 
 ### General Commands
@@ -71,6 +73,8 @@ while still having the benefits of a Graphical User Interface (GUI).
 * Clearing SOChedule: [`clear`](#clearing-sochedule-clear)
 
 [Return to Table of Contents](#table-of-contents)
+
+<div style="page-break-after: always;"></div>
 
 ## Public Parameters for Tasks and Events
 As listed below are the attributes to be specified for Tasks and Events. All parameters are mandatory unless otherwise stated.
@@ -863,6 +867,9 @@ Format: `find_schedule DATE`
 
 * After running `find_schedule`, `list_task` and `list_event` can be used to display the whole task list and event list respectively.
 
+* This command is still able to be executed on an empty task list, and an empty event list.
+  In this case, the success message will still be displayed. <br>
+  
 </div>
 
 Examples:
