@@ -431,7 +431,6 @@ Examples:
 
 [Return to Feature List](#feature-list)
 
-<div style="page-break-after: always;"></div>
 
 ### Deleting a task: `delete_task`
 Deletes a task from the task list.
@@ -445,6 +444,9 @@ Examples:
 * `find_task homework` followed by `delete_task 1` deletes the first task in the result of the `find_task` command.
 
 [Return to Feature List](#feature-list)
+
+<div style="page-break-after: always;"></div>
+
 
 ### Editing a task: `edit_task`
 Edits an **existing and uncompleted** task in the task list.
@@ -462,10 +464,7 @@ Format: `edit_task INDEX [n/TASKNAME] [d/DEADLINE] [p/PRIORITY] [c/CATEGORY]... 
 * When editing tags and categories, the order given in the input and the order as shown in the UI can be different. <br>
   For example, in input `edit_task 1 t/t2 t/t10`, `t/t2` is before `t/t10` in the input, but `t10` may appear in the UI before `t2`.
   Lexicographical order is followed.
-
-<div style="page-break-after: always;"></div>
-
-
+  
 <div markdown="block" class="alert alert-info">
 
 **:information_source: Note:** <br>
@@ -482,6 +481,9 @@ Format: `edit_task INDEX [n/TASKNAME] [d/DEADLINE] [p/PRIORITY] [c/CATEGORY]... 
 Examples:
 * `edit_task 1 n/t1` edits the name of the first task (if present in SOChedule) to be `editedTaskName`.
 * `edit_task 2 p/3 t/` edits the priority of the second task (if present in SOChedule) to be `3` and clears all existing tags. 
+
+<div style="page-break-after: always;"></div>
+
 
 #### Illustration of usage of `edit_task`:
 ![Example of usage of `edit task`](images/EditTaskUsage.png)
