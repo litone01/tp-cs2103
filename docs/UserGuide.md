@@ -431,6 +431,7 @@ Examples:
 
 [Return to Feature List](#feature-list)
 
+<div style="page-break-after: always;"></div>
 
 ### Deleting a task: `delete_task`
 Deletes a task from the task list.
