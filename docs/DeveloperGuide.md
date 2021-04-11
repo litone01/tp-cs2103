@@ -60,6 +60,8 @@ Refer to the guide [_Setting up and getting started_](SettingUp.md).
 
 --------------------------------------------------------------------------------------------------------------------
 
+<div style="page-break-after: always;"></div>
+
 ## 3. Design
 
 ### 3.1 Architecture
@@ -81,6 +83,8 @@ The rest of the App consists of four components.
 * [**`Model`**](#34-model-component): Holds the data of the App in memory.
 * [**`Storage`**](#35-storage-component): Reads data from, and writes data to, the hard disk.
 
+<div style="page-break-after: always;"></div>
+
 Each of the four components,
 
 * defines its *API* in an `interface` with the same name as the Component.
@@ -90,6 +94,8 @@ For example, the `Logic` component (see the class diagram given below) defines i
 
 ![Class Diagram of the Logic Component](images/LogicClassDiagram.png)
 
+<div style="page-break-after: always;"></div>
+
 **How the architecture components interact with each other**
 
 The *Sequence Diagram* below shows how the components interact with each other for the scenario where the user issues the command `delete_task 1`.
@@ -97,6 +103,8 @@ The *Sequence Diagram* below shows how the components interact with each other f
 ![Architecture Sequence Diagram](images/ArchitectureSequenceDiagram.png)
 
 The sections below give more details of each component.
+
+<div style="page-break-after: always;"></div>
 
 ### 3.2 UI component
 
@@ -129,6 +137,8 @@ The `UI` component,
 1. The result of the command execution is encapsulated as a `CommandResult` object which is passed back to the `Ui`.
 1. In addition, the `CommandResult` object can also instruct the `Ui` to perform certain actions, such as displaying help to the user.
 
+<div style="page-break-after: always;"></div>
+
 Given below is the Sequence Diagram for interactions within the `Logic` component for the `execute("delete_task 1")` API call.
 
 ![Interactions Inside the Logic Component for the `delete_task 1` Command](images/DeleteTaskCommandSequenceDiagram.png)
@@ -141,6 +151,8 @@ The lifeline for `DeleteTaskCommandParser`should end at the destroy marker (X) b
 </div>
 
 [Return to Table of Contents](#table-of-contents)  
+
+<div style="page-break-after: always;"></div>
 
 ### 3.4 Model component
 
