@@ -431,6 +431,8 @@ Examples:
 
 [Return to Feature List](#feature-list)
 
+<div style="page-break-after: always;"></div>
+
 ### Deleting a task: `delete_task`
 Deletes a task from the task list.
 
@@ -446,6 +448,7 @@ Examples:
 
 [Return to Feature List](#feature-list)
 
+<div style="page-break-after: always;"></div>
 
 ### Editing a task: `edit_task`
 Edits an **existing and uncompleted** task in the task list.
@@ -477,8 +480,6 @@ Format: `edit_task INDEX [n/TASKNAME] [d/DEADLINE] [p/PRIORITY] [c/CATEGORY]... 
 
 </div>
 
-<div style="page-break-after: always;"></div>
-
 Examples:
 * `edit_task 1 n/t1` edits the name of the first task (if present in SOChedule) to be `editedTaskName`.
 * `edit_task 2 p/3 t/` edits the priority of the second task (if present in SOChedule) to be `3` and clears all existing tags. 
@@ -496,6 +497,8 @@ Format: `list_task`
 
 [Return to Feature List](#feature-list)
 
+
+<div style="page-break-after: always;"></div>
 
 ### Marking one or more tasks as done: `done_task`
 Marks one or more task from the task list as completed.
@@ -525,6 +528,7 @@ Examples:
 
 [Return to Feature List](#feature-list)
 
+<div style="page-break-after: always;"></div>
 
 ### Marking a task as uncompleted: `undone_task`
 Marks a completed task from the task list as uncompleted.
@@ -536,13 +540,13 @@ Format: `undone_task INDEX`
 Examples:
 * `undone_task 1` marks the first task in the task list as uncompleted.
 
-<div style="page-break-after: always;"></div>
 
 #### Illustration of usage of `undone_task`:
 ![Example of usage of `undone task`](images/UndoneTaskUsage.png)
 
 [Return to Feature List](#feature-list)
 
+<div style="page-break-after: always;"></div>
 
 ### Getting today's tasks: `today_task`
 Lists all tasks that have deadline on today from the task list.
@@ -565,8 +569,6 @@ Format: `find_task KEYWORD1 [KEYWORD2] ...`
 * Tasks matching at least one keyword will be returned (i.e. `OR` search). <br>
   E.g. `CS2103 Homework` will return `ST2131 Homework`, `CS2103 Quiz`.
 
-<div style="page-break-after: always;"></div>
-
 Examples:
 * `find_task Homework` returns `st2131 homework` and `Homework 1`
 * `find_task assignment homework` returns `Assignment 1`, `Homework 2`
@@ -574,6 +576,8 @@ Examples:
 ![find_task example](images/find_task-example.png)
 
 [Return to Feature List](#feature-list)
+
+<div style="page-break-after: always;"></div>
 
 
 ### Sorting all tasks: `sort_task`
@@ -601,6 +605,7 @@ Examples:
 
 [Return to Feature List](#feature-list)
 
+<div style="page-break-after: always;"></div>
 
 ### Pinning a task: `pin_task`
 Pins a task from the task list.
@@ -617,8 +622,6 @@ Format: `pin_task INDEX`
 
 Examples:
 * `pin_task 1` pins the first task in the task list
-
-<div style="page-break-after: always;"></div>
 
 #### Illustration of usage of `pin_task`:
 ![Example of usage of `pin_task`](images/PinTaskUsage.png)
@@ -664,7 +667,6 @@ Format: `clear_completed_task`
   However, no tasks will be cleared since there are no completed tasks.
 
 </div>
-
 
 
 #### Illustration of usage of `clear_completed_task`:
