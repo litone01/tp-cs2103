@@ -565,6 +565,8 @@ Format: `find_task KEYWORD1 [KEYWORD2] ...`
 * Tasks matching at least one keyword will be returned (i.e. `OR` search). <br>
   E.g. `CS2103 Homework` will return `ST2131 Homework`, `CS2103 Quiz`.
 
+<div style="page-break-after: always;"></div>
+
 Examples:
 * `find_task Homework` returns `st2131 homework` and `Homework 1`
 * `find_task assignment homework` returns `Assignment 1`, `Homework 2`
