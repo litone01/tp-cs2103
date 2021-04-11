@@ -431,14 +431,14 @@ Examples:
 
 [Return to Feature List](#feature-list)
 
-<div style="page-break-after: always;"></div>
-
 ### Deleting a task: `delete_task`
 Deletes a task from the task list.
 
 Format: `delete_task INDEX`
 * Deletes the task at the specified INDEX.
 * The `INDEX` refers to the index number shown in the currently **displayed** task list.
+
+<div style="page-break-after: always;"></div>
 
 Examples:
 * `list_task` followed by `delete_task 2` deletes the second task in the full task list.
