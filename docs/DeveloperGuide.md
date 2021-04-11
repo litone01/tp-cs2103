@@ -60,13 +60,13 @@ Refer to the guide [_Setting up and getting started_](SettingUp.md).
 
 --------------------------------------------------------------------------------------------------------------------
 
+<div style="page-break-after: always;"></div>
+
 ## 3. Design
 
 ### 3.1 Architecture
 
 <img src="images/ArchitectureDiagram.png" width="450" />
-
-<div style="page-break-after: always;"></div>
 
 The ***Architecture Diagram*** given above explains the high-level design of the App. Given below is a quick overview of each component.
 
@@ -824,8 +824,6 @@ when calling the method `Model#updateFilteredTaskList(PREDICATE_SHOW_ALL_TASKS)`
 
 </div>
 
-<div style="page-break-after: always;"></div>
-
 The activity diagram that summaries what happens when users execute the `UndoneTaskCommand` can be found below.
 (For brevity, we assume user command format is valid and 'show errors' actions are omitted.)
 
@@ -990,8 +988,6 @@ The sequence diagram for `sortTaskCommand` can be found below, using the aforeme
 The following is a brief explanation , as illustrated by a sequence diagram, of how sorting is implemented inside the Model component.
 ![Sequence Diagram of SortTaskCommand in Model Component](images/SortTaskModelSequenceDiagram.png)
 
-<div style="page-break-after: always;"></div>
-
 ***Design Considerations for `SortTaskCommand`***
 <table>
     <tr>
@@ -1060,8 +1056,6 @@ The relevant methods include:
 * `PinTaskCommandParser#parse(String args)` - Parses the user input into a given `INDEX`.
 * `PinTaskCommand#execute(Model model)` - Marks target task as pinned, and updates the UI accordingly.
 
-<div style="page-break-after: always;"></div>
-
 Given below is an example usage scenario and how the pin task mechanism behaves at each step, using `pin_task 1` as an example.
 
 **Step 1**: User executes `pin_task 1` command to pin the task at the given index.
@@ -1078,6 +1072,8 @@ For brevity, lower level implementation of `Model#pinTask(Task task)` is omitted
 **Step 3**: On execution completion a `CommandResult` is created.
 A success message will be appended with `CommandResult#MESSAGE_PIN_TASK_SUCCESS`.
 The UI will also update as the underlying task list has been modified.
+
+<div style="page-break-after: always;"></div>
 
 The sequence diagram for `PinTaskCommand` can be found below.
 It is largely similar to `SortTaskCommand`, with a some minor differences:
@@ -1262,6 +1258,8 @@ The following activity diagram summarises what happens when a user executes a Ed
 
 <img src="images/EditEventCommandActivityDiagram.png" width="250" />›
 
+<div style="page-break-after: always;"></div>
+
 ***Design Considerations for `EditEventCommand`***
 <table>
     <tr>
@@ -1433,7 +1431,6 @@ The below activity diagram summarises what happens when `free_time` is called.
 
 <img src="images/FindFreeTimeActivityDiagram.png" width="450" />
 
-<div style="page-break-after: always;"></div>
 
 ***Design Considerations for `FindFreeTimeCommand`***
 <table>
@@ -1487,8 +1484,6 @@ readability of the code. Implementing code under UniqueEventList also reduces de
 [Return to Table of Contents](#table-of-contents)  
 
 --------------------------------------------------------------------------------------------------------------------
-
-<div style="page-break-after: always;"></div>
 
 ## 5. Documentation, logging, testing, configuration, dev-ops
 
