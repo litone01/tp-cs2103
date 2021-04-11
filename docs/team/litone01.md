@@ -115,4 +115,3 @@ Given below are my contributions to the project.
       
     * Some of my suggestions have benefited other classmates: [\#34](https://github.com/nus-cs2103-AY2021S2/forum/issues/34),
         [\#36](https://github.com/nus-cs2103-AY2021S2/forum/issues/36).
-
