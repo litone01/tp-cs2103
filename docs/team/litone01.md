@@ -44,7 +44,6 @@ Given below are my contributions to the project.
       finds the tasks and events that may interest the users the most. This helps to make our product more convenient 
       and efficient to use.
       
-
 * **Enhancements to existing features**:
     * Enhance the function of editing an existing task, `Edit task`.
         * **What it does:** Allows users to edit the details of the task at the specified index 
@@ -115,3 +114,4 @@ Given below are my contributions to the project.
       
     * Some of my suggestions have benefited other classmates: [\#34](https://github.com/nus-cs2103-AY2021S2/forum/issues/34),
         [\#36](https://github.com/nus-cs2103-AY2021S2/forum/issues/36).
+      
