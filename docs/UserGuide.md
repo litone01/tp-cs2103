@@ -440,8 +440,6 @@ Format: `delete_task INDEX`
 * Deletes the task at the specified INDEX.
 * The `INDEX` refers to the index number shown in the currently **displayed** task list.
 
-<div style="page-break-after: always;"></div>
-
 Examples:
 * `list_task` followed by `delete_task 2` deletes the second task in the full task list.
 * `find_task homework` followed by `delete_task 1` deletes the first task in the result of the `find_task` command.
@@ -546,7 +544,6 @@ Examples:
 
 [Return to Feature List](#feature-list)
 
-<div style="page-break-after: always;"></div>
 
 ### Getting today's tasks: `today_task`
 Lists all tasks that have deadline on today from the task list.
@@ -555,6 +552,7 @@ Format: `today_task`
 
 [Return to Feature List](#feature-list)
 
+<div style="page-break-after: always;"></div>
 
 ### Finding tasks by name: `find_task`
 Finds tasks whose names contain any of the given keywords from the task list.
@@ -626,13 +624,13 @@ Examples:
 #### Illustration of usage of `pin_task`:
 ![Example of usage of `pin_task`](images/PinTaskUsage.png)
 
+<div style="page-break-after: always;"></div>
+
 #### Illustration of the interaction between `pin_task` and `sort_task`:
 ![Example of interaction of `pin_task` with `sort_task`](images/PinTaskInteractionWithSortTask.png)
 
 [Return to Feature List](#feature-list)
 
-
-<div style="page-break-after: always;"></div>
 
 ### Unpinning a task: `unpin_task`
 Unpins a task from the task list.
@@ -738,6 +736,8 @@ Examples:
 
 [Return to Feature List](#feature-list)
 
+<div style="page-break-after: always;"></div>
+
 ### Deleting an event: `delete_event`
 Deletes an event from the event list.
 
@@ -751,6 +751,8 @@ Examples:
 
 [Return to Feature List](#feature-list)
 
+
+<div style="page-break-after: always;"></div>
 
 ### Editing an event: `edit_event`
 Edits an **existing and uncompleted** event in the event list.
@@ -809,6 +811,7 @@ Format: `today_event`
 
 [Return to Feature List](#feature-list)
 
+<div style="page-break-after: always;"></div>
 
 ### Finding events by name: `find_event`
 Finds events whose names contain any of the given keywords from the event list.
@@ -830,6 +833,7 @@ Examples:
 
 [Return to Feature List](#feature-list)
 
+<div style="page-break-after: always;"></div>
 
 ### Clearing expired events: `clear_expired_event`
 Clears events with past end date time from the event list.
@@ -853,6 +857,8 @@ Format: `clear_expired_event`
 
 [Return to Feature List](#feature-list)
 
+<div style="page-break-after: always;"></div>
+
 
 ### Finding free time slots: `free_time`
 Finds all free time slots on the given date from the event list.
@@ -870,6 +876,8 @@ Examples:
 ![Example of usage of `free_time`](images/FindFreeTimeExample.png)
 
 [Return to Feature List](#feature-list)
+
+<div style="page-break-after: always;"></div>
 
 
 ### Finding schedule given a date: `find_schedule`
