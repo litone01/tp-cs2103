@@ -627,6 +627,8 @@ Examples:
 #### Illustration of usage of `pin_task`:
 ![Example of usage of `pin_task`](images/PinTaskUsage.png)
 
+<div style="page-break-after: always;"></div>
+
 #### Illustration of the interaction between `pin_task` and `sort_task`:
 ![Example of interaction of `pin_task` with `sort_task`](images/PinTaskInteractionWithSortTask.png)
 
@@ -739,6 +741,8 @@ Examples:
 
 [Return to Feature List](#feature-list)
 
+<div style="page-break-after: always;"></div>
+
 ### Deleting an event: `delete_event`
 Deletes an event from the event list.
 
@@ -760,8 +764,7 @@ Edits an **existing and unexpired** event in the event list.
 
 Format: `edit_event INDEX [n/EVENTNAME] [sd/STARTDATE] [st/STARTTIME] [ed/ENDDATE] [et/ENDTIME] [c/CATEGORY]... [t/TAG]...`
 * Edits the event at the specified `INDEX`.
-* An expired event could only be edited when users edit the past end date and time to an unexpired end date and time. <br>
-  (i.e. top extend the event).
+* An expired event could only be edited when users edit the past end date and time to an unexpired end date and time (i.e. to extend the event).
 * Except the condition above, only **unexpired** event can be edited.
 * **At least one** of the optional fields must be provided.
 * The `ENDDATE` and `ENDTIME` provided must be **after** `STARTDATE` and `STARTTIME`.
@@ -796,6 +799,7 @@ Examples:
 
 [Return to Feature List](#feature-list)
 
+<div style="page-break-after: always;"></div>
 
 ### Listing all events: `list_event`
 Lists all events from the event list.
