@@ -535,6 +535,8 @@ Format: `undone_task INDEX`
 Examples:
 * `undone_task 1` marks the first task in the task list as uncompleted.
 
+<div style="page-break-after: always;"></div>
+
 #### Illustration of usage of `undone_task`:
 ![Example of usage of `undone task`](images/UndoneTaskUsage.png)
 
@@ -612,6 +614,8 @@ Format: `pin_task INDEX`
 
 Examples:
 * `pin_task 1` pins the first task in the task list
+
+<div style="page-break-after: always;"></div>
 
 #### Illustration of usage of `pin_task`:
 ![Example of usage of `pin_task`](images/PinTaskUsage.png)
