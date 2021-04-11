@@ -74,8 +74,6 @@ while still having the benefits of a Graphical User Interface (GUI).
 
 [Return to Table of Contents](#table-of-contents)
 
-<div style="page-break-after: always;"></div>
-
 ## Public Parameters for Tasks and Events
 As listed below are the attributes to be specified for Tasks and Events. All parameters are mandatory unless otherwise stated.
 
