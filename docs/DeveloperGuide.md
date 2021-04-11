@@ -2097,8 +2097,6 @@ Use case ends.
 1.  Should give a response to user's input within 5 seconds.
 1.  The source code should be open source.
 
-<div style="page-break-after: always;"></div>
-
 ### A5. Glossary
 
 * **Mainstream OS**: Windows, Linux, Unix, OS-X
