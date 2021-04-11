@@ -880,8 +880,6 @@ under normal usage. Thus, we feel alternative 1 is sufficient to serve our users
 
 [Return to Overview](#421-overview)
 
-<div style="page-break-after: always;"></div>
-
 #### Implementation of `today_task` command
 In SOChedule, the governing logic behind the `today_task` command is laid out in [`TodayTaskCommand.java`](https://github.com/AY2021S2-CS2103-W16-1/tp/blob/master/src/main/java/seedu/address/logic/commands/TodayTaskCommand.java)
 The following is a detailed explanation on how `TodayTaskCommand.java` is implemented.
@@ -1081,6 +1079,8 @@ It is largely similar to `SortTaskCommand`, with a some minor differences:
 * Additional call to `Model#sortTasksDefault()` after `Model#pinTask(Task)`
 
 ![Sequence Diagram of PinTaskCommand](images/PinTaskSequenceDiagram.png)
+
+<div style="page-break-after: always;"></div>
 
 The below activity diagram summarises what happens when `pin_task` is called, using `pin_task 1` as an example.
 It can also be similarly extrapolated and applied to `unpin_task`.
@@ -1484,6 +1484,8 @@ readability of the code. Implementing code under UniqueEventList also reduces de
 [Return to Table of Contents](#table-of-contents)  
 
 --------------------------------------------------------------------------------------------------------------------
+
+<div style="page-break-after: always;"></div>
 
 ## 5. Documentation, logging, testing, configuration, dev-ops
 
@@ -2084,6 +2086,8 @@ Use case ends.
    <br><br>
    Use case ends.
 
+<div style="page-break-after: always;"></div>
+
 ### A4. Non-Functional Requirements
 
 1.  Should work on any _mainstream OS_ as long as it has Java `11` or above installed.
@@ -2102,6 +2106,7 @@ Use case ends.
 * **Task**: Activities to be undertaken that can be marked complete/uncompleted. It also has a compulsory date field to 
   indicate its deadline.
 
+<div style="page-break-after: always;"></div>
 
 ### A6. Instructions for manual testing
 
