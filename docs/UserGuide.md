@@ -446,8 +446,6 @@ Examples:
 
 [Return to Feature List](#feature-list)
 
-<div style="page-break-after: always;"></div>
-
 ### Editing a task: `edit_task`
 Edits an **existing and uncompleted** task in the task list.
 
@@ -464,6 +462,9 @@ Format: `edit_task INDEX [n/TASKNAME] [d/DEADLINE] [p/PRIORITY] [c/CATEGORY]... 
 * When editing tags and categories, the order given in the input and the order as shown in the UI can be different. <br>
   For example, in input `edit_task 1 t/t2 t/t10`, `t/t2` is before `t/t10` in the input, but `t10` may appear in the UI before `t2`.
   Lexicographical order is followed.
+
+<div style="page-break-after: always;"></div>
+
 
 <div markdown="block" class="alert alert-info">
 
@@ -642,13 +643,14 @@ Format: `unpin_task INDEX`
 Examples:
 * `unpin_task 1` unpins the first task in the task list
 
+
+<div style="page-break-after: always;"></div>
+
 #### Illustration of usage of `unpin_task`:
 ![Example of usage of `unpin_task`](images/UnpinTaskUsage.png)
 
 [Return to Feature List](#feature-list)
 
-
-<div style="page-break-after: always;"></div>
 
 
 ### Clearing completed tasks: `clear_completed_task`
@@ -787,6 +789,8 @@ Format: `edit_event INDEX [n/EVENTNAME] [sd/STARTDATE] [st/STARTTIME] [ed/ENDDAT
 
 </div>
 
+<div style="page-break-after: always;"></div>
+
 Examples:
 * `edit_event 1 n/editedEventName` edits the name of the first event (if present in the event list) to be 
   `editedEventName`.
@@ -902,6 +906,7 @@ Format: `find_schedule DATE`
   In this case, the success message will still be displayed. <br>
   
 </div>
+<div style="page-break-after: always;"></div>
 
 Examples:
 * `find_schedule 2021-04-10` finds:
@@ -922,6 +927,7 @@ For event list:
 
 [Return to Feature List](#feature-list)
 
+<div style="page-break-after: always;"></div>
 
 ### Summarising tasks and events statistics: `summary`
 Displays a summary of tasks completion status and events upcoming for the next 7 days.
@@ -938,6 +944,7 @@ Format: `summary`
 
 [Return to Feature List](#feature-list)
 
+<div style="page-break-after: always;"></div>
 
 ### Clearing SOChedule: `clear`
 Clears all tasks and events in the SOChedule's task list and event list.
@@ -952,6 +959,8 @@ Format: `clear`
 [Return to Table of Contents](#table-of-contents)
 
 --------------------------------------------------------------------------------------------------------------------
+
+<div style="page-break-after: always;"></div>
 
 ## FAQ
 
