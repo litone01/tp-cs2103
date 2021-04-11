@@ -120,6 +120,8 @@ As listed below are the attributes to be specified for Tasks and Events. All par
     </tr>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 ### Task-Specific
 
 <table>
@@ -201,6 +203,8 @@ As listed below are the attributes to be specified for Tasks and Events. All par
 </table>
 
 [Return to Table of Contents](#table-of-contents)
+
+<div style="page-break-after: always;"></div>
 
 ## Common Arguments
 Below are a few arguments commonly found in SOChedule commands, and their corresponding restrictions, command-specific restrictions notwithstanding.
