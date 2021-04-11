@@ -629,6 +629,8 @@ Examples:
 [Return to Feature List](#feature-list)
 
 
+<div style="page-break-after: always;"></div>
+
 ### Unpinning a task: `unpin_task`
 Unpins a task from the task list.
 
@@ -643,6 +645,9 @@ Examples:
 ![Example of usage of `unpin_task`](images/UnpinTaskUsage.png)
 
 [Return to Feature List](#feature-list)
+
+
+<div style="page-break-after: always;"></div>
 
 
 ### Clearing completed tasks: `clear_completed_task`
@@ -660,10 +665,15 @@ Format: `clear_completed_task`
 
 </div>
 
+
+
 #### Illustration of usage of `clear_completed_task`:
 ![Example of usage of `clear_completed_task`](images/ClearCompletedTaskUsage.png)
 
 [Return to Feature List](#feature-list)
+
+
+<div style="page-break-after: always;"></div>
 
 
 ### Clearing expired tasks: `clear_expired_task`
