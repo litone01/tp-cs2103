@@ -1166,8 +1166,14 @@ Our `Event` supports the following features through a `LogicManager`
 * [`clear_expired_event`](#implementation-of-clear_expired_event-command)
 * [`free_time`](#implementation-of-free_time-command)
 
-The implementation of the noteworthy ones will be listed in the next section. Some implementations of features are
-omitted here because their implementation is similar to that of other features.
+<div markdown="span" class="alert alert-info">
+
+:information_source: **Note:**
+
+The implementation of the noteworthy ones will be listed in the next section.
+Some implementations of features are omitted because their implementation is similar to that of other features.
+
+</div>
 
 <div style="page-break-after: always;"></div>
 
@@ -1187,7 +1193,7 @@ This will add the event specified into the event list.
 For brevity, lower level implementation of `Model#addEvent(Event eventToAdd)` is omitted.
 
 **Step 3**: On execution completion a `CommandResult` is created.
-A success message `AddEventCommand#MESSAGE_ADD_EVENT_SUCCES` will be displayed.
+A success message `AddEventCommand#MESSAGE_ADD_EVENT_SUCCESS` will be displayed.
 The UI will also update as the underlying event list has been modified.
 
 The sequence diagram for `AddEventCommand` can be found below.
