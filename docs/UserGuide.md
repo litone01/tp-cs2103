@@ -627,13 +627,13 @@ Examples:
 #### Illustration of usage of `pin_task`:
 ![Example of usage of `pin_task`](images/PinTaskUsage.png)
 
-<div style="page-break-after: always;"></div>
-
 #### Illustration of the interaction between `pin_task` and `sort_task`:
 ![Example of interaction of `pin_task` with `sort_task`](images/PinTaskInteractionWithSortTask.png)
 
 [Return to Feature List](#feature-list)
 
+
+<div style="page-break-after: always;"></div>
 
 ### Unpinning a task: `unpin_task`
 Unpins a task from the task list.
@@ -646,14 +646,13 @@ Examples:
 * `unpin_task 1` unpins the first task in the task list
 
 
-<div style="page-break-after: always;"></div>
-
 #### Illustration of usage of `unpin_task`:
 ![Example of usage of `unpin_task`](images/UnpinTaskUsage.png)
 
 [Return to Feature List](#feature-list)
 
 
+<div style="page-break-after: always;"></div>
 
 ### Clearing completed tasks: `clear_completed_task`
 Clears tasks marked as completed from the task list.
@@ -740,8 +739,6 @@ Examples:
 
 [Return to Feature List](#feature-list)
 
-<div style="page-break-after: always;"></div>
-
 ### Deleting an event: `delete_event`
 Deletes an event from the event list.
 
@@ -759,7 +756,7 @@ Examples:
 <div style="page-break-after: always;"></div>
 
 ### Editing an event: `edit_event`
-Edits an **existing and uncompleted** event in the event list.
+Edits an **existing and unexpired** event in the event list.
 
 Format: `edit_event INDEX [n/EVENTNAME] [sd/STARTDATE] [st/STARTTIME] [ed/ENDDATE] [et/ENDTIME] [c/CATEGORY]... [t/TAG]...`
 * Edits the event at the specified `INDEX`.
@@ -790,8 +787,6 @@ Format: `edit_event INDEX [n/EVENTNAME] [sd/STARTDATE] [st/STARTTIME] [ed/ENDDAT
 * If the same prefix (excluding <code>c/</code>, <code>t/</code>) appears multiple times in the input (e.g. <code>n/n1</code> <code>n/n2</code>), the latter one would be taken (i.e. <code>n/n2</code>).
 
 </div>
-
-<div style="page-break-after: always;"></div>
 
 Examples:
 * `edit_event 1 n/editedEventName` edits the name of the first event (if present in the event list) to be 
@@ -908,12 +903,13 @@ Format: `find_schedule DATE`
   In this case, the success message will still be displayed. <br>
   
 </div>
-<div style="page-break-after: always;"></div>
 
 Examples:
 * `find_schedule 2021-04-10` finds:
   * All existing uncompleted tasks with deadlines before or on `2021-04-10`.
   * All existing events where `2021-04-10` falls between start date (inclusive) and end date (inclusive).
+
+<div style="page-break-after: always;"></div>
 
 #### Illustration of usage of `find_schedule`:
 
