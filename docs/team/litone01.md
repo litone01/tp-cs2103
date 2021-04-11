@@ -91,7 +91,6 @@ Given below are my contributions to the project.
     [\#195](https://github.com/AY2021S2-CS2103-W16-1/tp/pull/195),
     [\#225](https://github.com/AY2021S2-CS2103-W16-1/tp/pull/225).
     
-
 * **Community**:
     * Contributed to forum discussions: [\#16](https://github.com/nus-cs2103-AY2021S2/forum/issues/16),
       [\#31](https://github.com/nus-cs2103-AY2021S2/forum/issues/31),
@@ -101,8 +100,6 @@ Given below are my contributions to the project.
       
     * Some of my suggestions have benefited other classmates: [\#34](https://github.com/nus-cs2103-AY2021S2/forum/issues/34),
         [\#36](https://github.com/nus-cs2103-AY2021S2/forum/issues/36).
-
-<div style="page-break-after: always;"></div>
 
 ### Documentation
   * **User Guide**:
