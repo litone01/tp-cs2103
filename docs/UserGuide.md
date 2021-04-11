@@ -698,6 +698,7 @@ Format: `clear_expired_task`
 
 [Return to Feature List](#feature-list)
 
+<div style="page-break-after: always;"></div>
 
 ### Adding an event: `add_event`
 Adds an event to the event list.
@@ -734,7 +735,6 @@ Examples:
   respective attributes to the event list.
 
 [Return to Feature List](#feature-list)
-
 
 ### Deleting an event: `delete_event`
 Deletes an event from the event list.
